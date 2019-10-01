@@ -1,6 +1,4 @@
 # ActiveAdmin Addons
-[![Gem Version](https://badge.fury.io/rb/activeadmin_addons.svg)](https://badge.fury.io/rb/activeadmin_addons)
-[![Build Status](https://secure.travis-ci.org/platanus/activeadmin_addons.svg?branch=master)](http://travis-ci.org/platanus/activeadmin_addons)
 
 ActiveAdmin Addons will extend your ActiveAdmin and enable a set of addons you can optionally use to improve the ActiveAdmin UI and make it awesome.
 
@@ -247,24 +245,3 @@ Take care of defining these variables before the import of `@import 'activeadmin
 
 For material documentation you should go to [gem documentation](http://code.viget.com/active_material/docs/api/).
 
-## Contributing
-
-1. Fork it
-2. Create your feature branch (`git checkout -b my-new-feature`)
-3. Commit your changes (`git commit -am 'Add some feature'`)
-4. Push to the branch (`git push origin my-new-feature`)
-5. Create new Pull Request
-
-If you want to collaborate, please check [the rules](docs/CONTRIBUTING.md) first.
-
-## Credits
-
-Thank you [contributors](https://github.com/platanus/activeadmin_addons/graphs/contributors)!
-
-<img src="http://platan.us/gravatar_with_text.png" alt="Platanus" width="250"/>
-
-activeadmin_addons is maintained by [platanus](http://platan.us).
-
-## License
-
-ActiveAdminAddons is © 2016 Platanus, spa. It is free software and may be redistributed under the terms specified in the LICENSE file.
