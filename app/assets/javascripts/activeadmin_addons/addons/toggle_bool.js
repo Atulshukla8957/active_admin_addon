@@ -37,15 +37,10 @@ var initializer = function() {
               },
               type: 'PATCH',
             });
-          }else{
-
-          }
-        }
-        else{
-        } 
+          }else{}
+        }else{} 
       }
-    }
-    else{
+    }else{
       $.ajax({
         url: url,
         data: data,
@@ -66,9 +61,8 @@ var initializer = function() {
         type: 'PATCH',
       });
     }  
-  });
+  }); 
 };
-
 
 $(initializer);
 $(document).on('turbolinks:load', initializer);
