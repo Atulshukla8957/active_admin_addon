@@ -256,15 +256,3 @@ For material documentation you should go to [gem documentation](http://code.vige
 5. Create new Pull Request
 
 If you want to collaborate, please check [the rules](docs/CONTRIBUTING.md) first.
-
-## Credits
-
-Thank you [contributors](https://github.com/platanus/activeadmin_addons/graphs/contributors)!
-
-<img src="http://platan.us/gravatar_with_text.png" alt="Platanus" width="250"/>
-
-activeadmin_addons is maintained by [platanus](http://platan.us).
-
-## License
-
-ActiveAdminAddons is © 2016 Platanus, spa. It is free software and may be redistributed under the terms specified in the LICENSE file.
