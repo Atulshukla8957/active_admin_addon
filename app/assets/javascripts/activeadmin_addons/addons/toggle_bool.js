@@ -17,9 +17,9 @@ var initializer = function() {
         }else{
           var retVal = confirm("Are you sure you want to manually approve the customer?");
           if(retVal){
-            var resVal = confirm("his function cannot be undone. Are you sure?");
+            var resVal = confirm("This function cannot be undone. Are you sure?");
             if (resVal) {
-              update_manual_status(data, value, url);
+              update_manual_status(data, value, url, boolSwitch);
             }else{}
           }else{} 
         }
