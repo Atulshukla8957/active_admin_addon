@@ -38,7 +38,18 @@ var initializer = function() {
         }
       }     
     }else{
-      default_toggel_status(data, value, url, boolSwitch);
+      var prevValue = $(this).hasClass('on');
+      if (prevValue) {
+        var retVal = confirm("Are you sure?");
+        if(retVal){
+          default_toggel_status(data, value, url, boolSwitch);
+        }else{}
+      }else{
+        var retVal = confirm("Are you sure?");
+        if(retVal){
+          default_toggel_status(data, value, url, boolSwitch);
+        }else{} 
+      }
     }  
   }); 
 };
